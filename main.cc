@@ -13,11 +13,13 @@ void die() {
     cout << "BAD INPUT!" << endl;
     exit(1);
 }
+// number of primes less than or equal to 10^n, where n is the index of the following array
 const array<cpp_int, 21> cache = {
     0, 4, 25, 168, 1'229, 9'592, 78'498, 664'579, 5'761'455, 50'847'534, 455'052'511, 4'118'054'813,
     37'607'912'018,346'065'536'839, 3'204'941'750'802, 29'844'570'422'669, 279'238'341'033'925,
     2'623'557'157'654'233, 24'739'954'287'740'860, 234'057'667'276'344'607, 2'220'819'602'560'918'840,
 };
+
 cpp_int pi(cpp_int i, cpp_int j) {
     cpp_int pi = 0;
     cpp_int total = 0;
