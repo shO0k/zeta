@@ -7,20 +7,10 @@
 
 ======================================================
 
-Purpose: This is designed to be a simple little assignment to get the juices flowing
-in your brain. It requires knowledge of functions, loops, and maaaaaaybe vectors,
-but more importantly it will teach you how to *composite* them together. Using
-multiple building blocks of computer science in concert is a skill in and of
-itself and needs to be built up through practice.
+The zeta function is a function in analytic number theory that computes the 
+sum of the number of primes less than or equal to eachnumber in the specified range.
 
-Background: I was up at Shaver Lake visiting some friends from college, and
-while my kid played with their kid in the snow, we talked about computer
-science at UCSD, and we each described our hardest classes. Katrina mentioned
-that she once took a number theory class on Zeta Functions, and to this day still
-doesn't know what they mean. So I looked them up, and then I looked up the
-meaning of the words being used to describe Zeta functions, and I don't get
-them either. (https://encyclopediaofmath.org/wiki/Zeta-function) BUT! There
-was one part of it I did understand, and that's where this assignment came from.
+(https://encyclopediaofmath.org/wiki/Zeta-function) 
 
 Your assignment is to code this little thing here: https://imgur.com/1D5XDIa
 
@@ -40,33 +30,8 @@ prime numbers <= 11: 2, 3, 5, 7, 11.
 So the answer is: 4 + 4 + 4 + 4 + 5 = 21. (Your code will output: "The answer
 is: 21")
 
-What does this mean? What is it used for? I have no idea. But it is a great
-programming exercise! You can check your results of the pi(x) function for
-powers of 10 (only) using the table found here:
+You can check your results of the pi(x) function for powers of 10 (only) using the table found here:
 https://en.wikipedia.org/wiki/Prime-counting_function#Table_of_%CF%80(x),_x_/_log_x,_and_li(x)
-
-How should you do it? How should you break this problem down?
-
-You figure it out! That's the point of this exercise.
-
-You should be able to write a function to tell if something is prime, right?
-I'd start with that and then work your way up from there. There's probably
-loops or something too. And maybe pi(x) should be a function, too.
-
-Once you have it working, you might notice it running very slowly for larger
-numbers as you constantly recompute if a number if a prime or not. To combat
-that, I would optimize the code so that you never repeat a computation to see
-if a number is prime. You can also use the wikipedia link above to get some of
-the values of π(x) precalculated for you.
-
-If an error occurs, you must print "BAD INPUT!" and quit the program.
-Errors occur if these constraints are violated:
-i and j must both be >= 2
-j must be >= i
-
-If the difference between i and j is <= 10 then print out each value of pi(x).
-
-==========================================================
 
 Example 1:
 Welcome to Zeta World!
